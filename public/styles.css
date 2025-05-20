@@ -1,0 +1,75 @@
+/* Tùy chỉnh giao diện chung */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Tùy chỉnh tiêu đề */
+h1 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Tùy chỉnh card chứa form nhập địa chỉ ví */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+/* Tùy chỉnh form input */
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Tùy chỉnh nút submit */
+.btn-primary {
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+/* Tùy chỉnh card NFT */
+.nft-image {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Tùy chỉnh loading spinner */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Tùy chỉnh thẻ thuộc tính NFT */
+.attribute-tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin: 2px;
+    font-size: 0.85rem;
+}
+
+/* Tùy chỉnh responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .nft-image {
+        height: 150px;
+    }
+}
